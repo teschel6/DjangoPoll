@@ -1,0 +1,47 @@
+/*Author: Teschel6*/
+/*Created: June 1, 2018*/
+/*Description: css file for betterHTML*/
+
+div.container{
+	max-width: 60vmax;
+	margin: 5vmax auto;
+	padding: 0 2vmax;
+}
+*{
+	font-family: helvetica;
+}
+p{
+	line-height: 1.5;
+	font-size: 1.07em;
+}
+a:link{
+	color: DodgerBlue;
+	text-decoration: none;
+}
+a:hover{
+	color: DodgerBlue;
+	text-decoration: underline;
+}
+a:visited{
+	color: DodgerBlue;
+}
+code{
+	font-family: courier;
+	color: #EA428A;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+th{
+	padding: 8px;
+	text-align: left;
+}
+tr,td{
+	padding: 8px;
+	border-bottom: 1px solid DarkGrey;
+}
+tr:nth-child(even){
+	background-color: #e6e6e6;
+}
