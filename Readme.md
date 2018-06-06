@@ -17,3 +17,8 @@ pip install Django
 ```
 python manage.py runserver
 ```
+
+Django Administrator
+User: admin
+pwd: $12345678a
+Make sure to change the pwd!
